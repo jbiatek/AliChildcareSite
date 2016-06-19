@@ -1,11 +1,11 @@
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Resume Grid Section -->
+    <section class="success" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2>Experience</h2>
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -17,7 +17,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+			    <p style="text-align: center;">{{ post.title }}</p>
                         </a>
                     </div>
                 {% endfor %}

@@ -36,6 +36,10 @@ h6 {
     font-weight: 700;
 }
 
+.modal-body h3, h4, h5, h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
